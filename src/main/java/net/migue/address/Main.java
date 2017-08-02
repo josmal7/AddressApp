@@ -1,4 +1,4 @@
-package application;
+package net.migue.address;
 	
 import javafx.application.Application;
 import javafx.stage.Stage;
