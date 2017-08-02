@@ -10,10 +10,9 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
- * Model class for Person
+ * Model class for a Person.
  *
- * @author Miguel
- *
+ * @author Marco Jakob
  */
 public class Person {
 
