@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="280.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.migue.address.directory.PersonEditDialogController">
+<AnchorPane prefHeight="280.0" prefWidth="380.0" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.migue.address.directory.PersonEditDialogController">
    <children>
       <GridPane layoutX="7.0" layoutY="8.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
         <columnConstraints>
@@ -37,7 +37,7 @@
       </GridPane>
       <HBox layoutX="216.0" layoutY="212.0" spacing="5.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
          <children>
-            <Button layoutX="216.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="90.0" text="OK" />
+            <Button defaultButton="true" layoutX="216.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="90.0" text="OK" />
             <Button layoutX="275.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleCancel" prefWidth="90.0" text="Cancel" />
          </children>
       </HBox>

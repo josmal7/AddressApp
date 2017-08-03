@@ -7,6 +7,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
@@ -53,6 +54,9 @@ public class MainApp extends Application {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
 
+     // Set the application icon.
+        this.primaryStage.getIcons().add(new Image("images/address_book_32.png"));
+
         initRootLayout();
 
         showPersonOverview();
@@ -70,6 +74,7 @@ public class MainApp extends Application {
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
+            scene.getStylesheets().add(getClass().getResource("/styles/DarkTheme.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch (IOException e) {
