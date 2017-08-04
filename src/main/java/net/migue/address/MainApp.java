@@ -55,7 +55,7 @@ public class MainApp extends Application {
         this.primaryStage.setTitle("AddressApp");
 
      // Set the application icon.
-        this.primaryStage.getIcons().add(new Image("images/address_book_32.png"));
+        this.primaryStage.getIcons().add(new Image("/images/address_book_32.png"));
 
         initRootLayout();
 
@@ -74,7 +74,7 @@ public class MainApp extends Application {
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
-            scene.getStylesheets().add(getClass().getResource("/styles/DarkTheme.css").toExternalForm());
+            //scene.getStylesheets().add(getClass().getResource("/styles/DarkTheme.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch (IOException e) {
