@@ -113,7 +113,7 @@ public class PersonOverviewController {
         	dl.setTitle("No Selection");
         	dl.setHeaderText("No Person Selected");
         	dl.setContentText("Please select a person in the table.");
-        	dl.show();
+        	dl.showAndWait();
         }
     }
 
@@ -149,7 +149,7 @@ public class PersonOverviewController {
         	dl.setTitle("No Selection");
         	dl.setHeaderText("No Person Selected");
         	dl.setContentText("Please select a person in the table.");
-        	dl.show();
+        	dl.showAndWait();
         }
     }
 }

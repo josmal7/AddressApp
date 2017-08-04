@@ -149,7 +149,7 @@ public class PersonEditDialogController {
         	dl.setTitle("Invalid Fields");
         	dl.setHeaderText("Please correct invalid fields");
         	dl.setContentText(errorMessage);
-        	dl.show();
+        	dl.showAndWait();
             return false;
         }
     }
