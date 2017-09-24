@@ -36,7 +36,6 @@ build/
 ### Maven template
 target/
 
-/.classpath
 /.project
 /.settings/
 /target/
